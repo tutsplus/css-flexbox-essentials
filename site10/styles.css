@@ -1,0 +1,47 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 10px;
+}
+h3 {
+    font-size: 12px;
+    margin: 4px 0;
+}
+.container {
+    background-color: #ddd;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.item {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.item1 {
+    flex: 1 0 auto;
+}
+.item2 {
+    flex: 1 0 auto;
+}
+.item3 {
+    flex: 1 0 auto;
+}
+.item4 {
+    flex: 1 0 auto;
+}
+.item1 h3 {
+    color: #d02;
+}
+.item2 h3 {
+    color: #13B;
+}
+.item3 h3 {
+    color: #262;
+}
+.item4 h3 {
+    color: orange;
+}

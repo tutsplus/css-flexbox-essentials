@@ -1,0 +1,43 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+    padding: 10px;
+}
+.container {
+    background-color: #ddd;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    min-width: 150px;
+}
+.item1 {
+    flex: 1;
+}
+.item2 {
+    flex: 1;
+}
+.item3 {
+    flex: 1;
+}
+.item4 {
+    flex: 1;
+}
+.item1 h3 {
+    color: #d02;
+}
+.item2 h3 {
+    color: #13B;
+}
+.item3 h3 {
+    color: #262;
+}
+.item4 h3 {
+    color: orange;
+}

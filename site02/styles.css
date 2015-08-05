@@ -1,0 +1,16 @@
+.container {
+	background-color: #555;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.item {
+
+}
+
+.item1 { background-color: red; }
+.item2 { background-color: blue; }
+.item3 { background-color: green; }
+.item4 { background-color: orange; }

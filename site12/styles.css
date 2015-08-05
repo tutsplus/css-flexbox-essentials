@@ -1,0 +1,59 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 10px;
+}
+h3 {
+    font-size: 12px;
+    margin: 4px 0;
+}
+.container {
+    background-color: #ddd;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.item {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+}
+.item1 {
+    width: 200px;
+}
+.item2 {
+    width: 200px;
+}
+.item3 {
+    width: 200px;
+}
+.item4 {
+    flex: 1 0 auto;
+}
+/*.item5 {
+    flex: 1 0 auto;
+}
+.item6 {
+    flex: 1 0 auto;
+}
+.item7 {
+    flex: 1 0 auto;
+}*/
+
+.item1 h3 {
+    color: #d02;
+}
+.item2 h3 {
+    color: #13B;
+}
+.item3 h3 {
+    color: #262;
+}
+.item4 h3 {
+    color: orange;
+}

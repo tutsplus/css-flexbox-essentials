@@ -1,0 +1,43 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+    padding: 10px;
+}
+.container {
+    background-color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+.item1 {
+    flex: 1;
+}
+.item2 {
+    flex: 1;
+}
+.item3 {
+    flex: 1;
+}
+.item4 {
+    flex: 1;
+}
+@media (max-width: 600px) {
+    .item1 {
+        order: 100;
+    }
+    .item2 {
+        order: 1;
+    }
+    .item3 {
+        order: 1;
+    }
+    .item4 {
+        order: 1;
+    }
+}

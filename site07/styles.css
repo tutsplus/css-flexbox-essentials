@@ -1,0 +1,44 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+    padding: 10px;
+}
+.container {
+    background-color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    color: white;
+}
+.item1 {
+    background-color: #d02;
+    flex: 1;
+}
+.item2 {
+    background-color: #138;
+    flex: 1;
+}
+.item3 {
+    background-color: #262;
+    flex: 1;
+}
+.item4 {
+    background-color: orange;
+    flex: 1;
+}
+@media (max-width: 600px) {
+    .item1 {
+        order: 100;
+    }
+    .item2 {
+        order: 1;
+    }
+    .item3 {
+        order: 1;
+    }
+    .item4 {
+        order: 1;
+    }
+}

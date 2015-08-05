@@ -1,0 +1,33 @@
+body {
+	font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+}
+
+.container {
+	background-color: #555;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.item {
+	color: white;
+}
+
+.item1 {
+	background-color: #d02;
+	flex: 2;
+}
+.item2 {
+	background-color: #138;
+	flex: 1;
+}
+.item3 {
+	background-color: #262;
+	flex: 2;
+}
+.item4 {
+	background-color: orange;
+	flex: 1;
+}

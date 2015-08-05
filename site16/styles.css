@@ -1,0 +1,42 @@
+body,
+html {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #444;
+}
+.container {
+    display: flex;
+    width: 700px;
+    background-color: #eee;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+header h3 {
+    margin-top: 0px;
+}
+.content {
+    display: flex;
+}
+.sidebar,
+.main {
+    background-color: white;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.sidebar {
+    flex: 1;
+    margin-right: 10px;
+}
+.main {
+    flex: 2;
+}
